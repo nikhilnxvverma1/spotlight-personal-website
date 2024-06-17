@@ -1,0 +1,25 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Adam Wathan',
+  date: '2024-05-24',
+  title: 'How to gain momentum when starting from scratch',
+  description:
+    'Solo developers usually face the blamk project problem. This article is all about building enduarnce needed to complete a project.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+When working on a big project, one usually starts to feel overwhelmed given the sheer size of effort required to feel satisfied. This feeling usually results in procrastination and an overall downfall in productivity. The best way then to deal with this is to chunk the whole project in manageable amounts.
+
+This also follows that development should be decentralized around one feature or context. If development is practiced across several areas, focus will never develop. You might make public progress by setting up foundational work but after a certain point progression speed starts to diminish. Also, it's easier to chunk work by creating milestones around a relevant feature set.MDXLayout
+
+To create milestones, we start by understanding all the functional requirements that govern a feature. Then we gather all the bulleted ideas and finalize it into a module. This module then acts as a building block and on its own, we can call it a milestone.
+
+It is often a bad idea to bunch up a set of disparate tasks in a bundle and call it a milestone. This is because if the tasks are not related, they usually do not generate adequate observing elements to guarantee a satisfying achievement. Moreover, milestones should have some tangible meaning. They should give the developer lasting encouragement to move on to the next task. This mental model helps reduce fatigue and burnout before moving to next milestone, take breaks 
+
