@@ -74,19 +74,19 @@ export default function About() {
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             
             <p>
-            Hello! I'm Nikhil Verma, founder and CEO of <Link href={"https://xorsafe.com"} className='text-teal-500'>Xorsafe Technologies</Link> .I am a passionate software engineer who loves turning ideas into reality using web technologies. With a strong foundation in coding and a relentless curiosity, I specialize in creating dynamic applications and engaging games that make a difference.
+            Hello! I am Nikhil Verma, founder and CEO of <Link href={"https://xorsafe.com"} className='text-teal-500'>Xorsafe Technologies</Link> .I am a passionate software engineer who loves turning ideas into reality using web technologies. With a strong foundation in coding and a relentless curiosity, I specialize in creating dynamic applications and engaging games that make a difference.
             </p>
             <p>
-            My journey into the world of coding began at Delhi Public School, Noida, where I first fell in love with programming at the age of 16. From that moment, coding became my primary focus and passion, shaping the rest of my academic and professional life. This early fascination led me to pursue a Bachelor's degree from Jaypee University, where I honed my skills and discovered my love for software development.
+            My journey into the world of coding began at Delhi Public School, Noida, where I first fell in love with programming at the age of 16. From that moment, coding became my primary focus and passion, shaping the rest of my academic and professional life. This early fascination led me to pursue a Bachelor&apos;s degree from Jaypee University, where I honed my skills and discovered my love for software development.
             </p>
             <p>
-            After graduation, I spent two years at Nucleus Software, gaining invaluable experience and tackling a variety of projects. This practical experience solidified my understanding and fueled my passion for creating impactful solutions. Driven by a desire to deepen my knowledge, I pursued a Master's degree at the Rochester Institute of Technology (RIT) in Rochester. During my time at RIT, I participated in more than a dozen hackathons, where I learned immensely from the intense, hands-on exposure and collaborative environment. These experiences further refined my expertise and pushed my boundaries in innovative thinking.
+            After graduation, I spent two years at Nucleus Software, gaining invaluable experience and tackling a variety of projects. This practical experience solidified my understanding and fueled my passion for creating impactful solutions. Driven by a desire to deepen my knowledge, I pursued a Master&apos;s degree at the Rochester Institute of Technology (RIT) in Rochester. During my time at RIT, I participated in more than a dozen hackathons, where I learned immensely from the intense, hands-on exposure and collaborative environment. These experiences further refined my expertise and pushed my boundaries in innovative thinking.
             </p>
             <p>
-            Whether it's building intuitive user interfaces, designing seamless user experiences, or crafting complex game mechanics, I thrive on solving problems and bringing innovative solutions to life. I approach every project with an open mind and a dedication to delivering high-quality results that meet both user needs and business goals.
+            Whether it&apos;s building intuitive user interfaces, designing seamless user experiences, or crafting complex game mechanics, I thrive on solving problems and bringing innovative solutions to life. I approach every project with an open mind and a dedication to delivering high-quality results that meet both user needs and business goals.
             </p>
             <p>
-            When I'm not coding, you can find me exploring new technologies, playing games, or sharing knowledge with the developer community. I also like to stay fit and am currently trying to learn some calisthenics moves. I believe in the power of technology to transform lives, and I'm excited to be a part of this ever-evolving field.
+            When I&apos;m not coding, you can find me exploring new technologies, playing games, or sharing knowledge with the developer community. I also like to stay fit and am currently trying to learn some calisthenics moves. I believe in the power of technology to transform lives, and I&apos;m excited to be a part of this ever-evolving field.
             </p>
             <p>
             Thank you for visiting my page, and I look forward to connecting with you!
