@@ -15,6 +15,12 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
+
+import logoXorsafe from '@/images/logos/workexp/xorsafe-logo.png';
+import logoJiit from '@/images/logos/workexp/jiit-logo.png';
+import logoRit from '@/images/logos/workexp/rit-logo.svg';
+import logoNucleus from '@/images/logos/workexp/nucleus-logo.png';
+
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -187,9 +193,9 @@ function Role({ role }: { role: Role }) {
 function Resume() {
   let resume: Array<Role> = [
     {
-      company: 'Planetaria',
+      company: 'Xorsafe Technologies',
       title: 'CEO',
-      logo: logoPlanetaria,
+      logo: logoXorsafe,
       start: '2019',
       end: {
         label: 'Present',
@@ -197,25 +203,25 @@ function Resume() {
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'RIT',
+      title: 'Masters in Computer Science',
+      logo: logoRit,
+      start: '2015',
+      end: '2018',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Nucleus Software',
+      title: 'Software Engineer',
+      logo: logoNucleus,
+      start: '2013',
+      end: '2015',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'JIIT University',
+      title: 'B.Tech, Computer Science',
+      logo: logoJiit,
+      start: '2009',
+      end: '2013',
     },
   ]
 
@@ -223,7 +229,7 @@ function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Qualifications</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -231,8 +237,8 @@ function Resume() {
         ))}
       </ol>
       <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+        View Skills
+        {/* <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" /> */}
       </Button>
     </div>
   )
@@ -273,31 +279,29 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Software designer, founder, and amateur calisthenics enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Nikhil, a software designer and entrepreneur based in Noida, India. I’m the founder and CEO of <Link href={"https://xorsafe.com"} className='text-teal-500'>Xorsafe Technologies</Link>, where we develop
+            technologies that empower teams to build better software together.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
-            <SocialLink
+            {/* <SocialLink href="#" aria-label="Follow on X" icon={XIcon} /> */}
+            {/* <SocialLink
               href="#"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            />
+            /> */}
             <SocialLink
-              href="#"
+              href="https://github.com/nikhilnxvverma1"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
-            <SocialLink
+            {/* <SocialLink
               href="#"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
-            />
+            /> */}
           </div>
         </div>
       </Container>
