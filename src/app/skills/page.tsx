@@ -90,7 +90,7 @@ export default function Uses() {
             or in the IDE based on my preference and integrations.
           </Tool>
           <Tool title="Faker">
-            Can't develop a project without it. I use faker to generate mocks for both my frontend and backend code.
+            Can&apos;t develop a project without it. I use faker to generate mocks for both my frontend and backend code.
             Its not a megacorp library but its a life saver that deserves a mention.
           </Tool>
         </ToolsSection>
