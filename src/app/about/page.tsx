@@ -50,7 +50,7 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'I’m Nikhil Vema. I live in Noida, India, where I am working on building the next generation of project management tools.',
 }
 
 export default function About() {
@@ -108,7 +108,7 @@ export default function About() {
               Follow on LinkedIn
             </SocialLink> */}
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="mailto:nikhilverma@xorsafe.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >

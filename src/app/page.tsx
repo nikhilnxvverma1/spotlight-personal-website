@@ -21,11 +21,16 @@ import logoJiit from '@/images/logos/workexp/jiit-logo.png';
 import logoRit from '@/images/logos/workexp/rit-logo.svg';
 import logoNucleus from '@/images/logos/workexp/nucleus-logo.png';
 
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
+// import image1 from '@/images/photos/image-1.jpg'
+// import image2 from '@/images/photos/image-2.jpg'
+// import image3 from '@/images/photos/image-3.jpg'
+// import image4 from '@/images/photos/image-4.jpg'
+// import image5 from '@/images/photos/image-5.jpg'
+import image1 from '@/images/photos/home/bald-orange.jpg'
+import image2 from '@/images/photos/home/apple-presentation.jpg'
+import image3 from '@/images/photos/home/six-pack-abs.jpg'
+import image4 from '@/images/photos/home/hackathon-explainer.jpg'
+import image5 from '@/images/photos/home/riverside-pd-min.jpeg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -236,7 +241,7 @@ function Resume() {
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
+      <Button href="/skills" variant="secondary" className="group mt-6 w-full">
         View Skills
         {/* <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" /> */}
       </Button>
@@ -262,7 +267,7 @@ function Photos() {
               src={image}
               alt=""
               sizes="(min-width: 640px) 18rem, 11rem"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover object-right-top"
             />
           </div>
         ))}
@@ -282,7 +287,7 @@ export default async function Home() {
             Software designer, founder, and amateur calisthenics enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Nikhil, a software designer and entrepreneur based in Noida, India. I’m the founder and CEO of <Link href={"https://xorsafe.com"} className='text-teal-500'>Xorsafe Technologies</Link>, where we develop
+            I’m Nikhil, a software designer and entrepreneur based in Noida, India. I’m the founder and CEO of <Link href={"https://xorsafe.com"} className='text-teal-500'>Xorsafe</Link>, where we develop
             technologies that empower teams to build better software together.
           </p>
           <div className="mt-6 flex gap-6">

@@ -3,47 +3,52 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+// import logoAnimaginary from '@/images/logos/animaginary.svg'
+// import logoCosmos from '@/images/logos/cosmos.svg'
+// import logoHelioStream from '@/images/logos/helio-stream.svg'
+// import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+// import logoPlanetaria from '@/images/logos/planetaria.svg'
+
+import logoXorsafe from '@/images/logos/projects/xorsafe-logo.png'
+import logoGithub from '@/images/logos/projects/github-mark.png'
+import logoCarryTheFlame from '@/images/logos/projects/carry-the-flame-round.png'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Xorsafe',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Creating an AI driven project management tool thats privacy oriented and runs locally.',
+    link: { href: 'http://xorsafe.com', label: 'xorsafe.com' },
+    logo: logoXorsafe,
   },
   {
-    name: 'Animaginary',
+    name: 'File Neat',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'A desktop app for organizing files and folders with a focus on visuzalizing space use.',
+    link: { href: 'https://github.com/nikhilnxvverma1/fine', label: 'github.com' },
+    logo: logoGithub,
   },
   {
-    name: 'HelioStream',
+    name: 'Xor Testbed',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+      'A library for visually testing and prototyping angular components.',
+    link: { href: 'https://github.com/xorsafe/xor-testbed', label: 'github.com' },
+    logo: logoGithub,
   },
   {
-    name: 'cosmOS',
+    name: 'Number Line',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+      'A dependency less typescript library for creating configurable number lines.',
+    link: { href: 'https://github.com/xorsafe/number-line', label: 'github.com' },
+    logo: logoGithub,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Carry the Flame',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'A unique 2D top down physics based puzzle game for iPad (Discontinued).',
+    link: { href: 'https://www.youtube.com/watch?v=tBg-ZhMQ06Y', label: 'youtube.com' },
+    logo: logoCarryTheFlame,
+    review:{ href: 'https://www.apppicker.com/reviews/22959/carry-the-flame-app-review', label: 'Apppicker' },
   },
 ]
 
@@ -92,8 +97,10 @@ export default function Projects() {
               <span className="ml-2">{project.link.label}</span>
             </p>
           </Card>
+          
         ))}
       </ul>
     </SimpleLayout>
   )
 }
+// <a href="https://www.apppicker.com/reviews/22959/carry-the-flame-app-review">Review</a>
